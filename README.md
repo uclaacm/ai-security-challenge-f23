@@ -1,4 +1,4 @@
-# 🤖🔐 AI Security Challenge - F23: Autonomous Vehicles 🚙
+# 🤖🔐 AI Security Challenge: Autonomous Vehicles 🚙
 ![Adversarial Examples on GTRSP](.github/gtsrsb-adversarial.png)
 
 This repository contains the code for the 🤖 AI Security Challenge 🔐 run as a collaboration between [ACM Cyber](https://www.acmcyber.com/) & [ACM AI](https://ai.uclaacm.com/). The format of this challenge is similar to an [attack-defense CTF](https://www.quora.com/What-is-an-attack-defense-CTF). Teams compete with one another to develop defenses to their machine learning model while also attacking the models of other teams. The team with the best attacks & defenses wins. The challenge is split into two phases: the development phase and the attack phase. During the development phase, teams are given access to the model and are allowed to train their own models on the dataset. During the attack phase, teams are only given access to another team's model and source code and are tasked with developing attacks against the model. The team with the best attacks & defenses wins.
