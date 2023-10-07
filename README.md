@@ -1,94 +1,18 @@
-# adversarial-ai-attack-defense-template
-Template repository for the adversarial AI attack-defense project run by ACM Cyber x ACM Cyber. Fall 2023.
+# 🤖🔐 AI Security Challenge - F23: Autonomous Vehicles 🚙
+![Adversarial Examples on GTRSP](.github/gtsrsb-adversarial.png)
 
-## Setup
+This repository contains the code for the 🤖 AI Security Challenge 🔐 run as a collaboration between [ACM Cyber](https://www.acmcyber.com/) & [ACM AI](https://ai.uclaacm.com/). The format of this challenge is similar to an [attack-defense CTF](https://www.quora.com/What-is-an-attack-defense-CTF). Teams compete with one another to develop defenses to their machine learning model while also attacking the models of other teams. The team with the best attacks & defenses wins. The challenge is split into two phases: the development phase and the attack phase. During the development phase, teams are given access to the model and are allowed to train their own models on the dataset. During the attack phase, teams are only given access to another team's model and source code and are tasked with developing attacks against the model. The team with the best attacks & defenses wins.
 
-1. Create a new conda environment.
+The Fall 2023 challenge is involves tackling the security of machine learning models in autonomous vehicles. This challenge uses the [German Traffic Sign Recognition Benchmark](https://benchmark.ini.rub.de/gtsrb_dataset.html) dataset. The goal is for teams to develop adversarial attacks & defenses for a fine-tuned [ResNet-18](https://arxiv.org/abs/1512.03385) model trained on the GTSRB dataset. The model is trained to classify traffic signs into 43 different classes similar to how a production ready model would work in an autonomous vehicle.
 
-2. Install PyTorch.
+## 📝 Resources
+The following are a set of resources that may be helpful for teams participating in the challenge. These resources are not required to participate in the challenge, but may be helpful for teams that are new to machine learning security.
 
-3. As you work on the project, you will end up installing many more packages.
+If you are completely new to adversarial AI, we recommend watching the following recording for an AI security workshop held by **ACM Cyber x ACM AI**.
 
-## Running the Skeleton Code
+- **ACM Cyber x ACM AI: AI Security Workshop**: https://youtu.be/nlQ61jntSkQ?si=tUXl6mS0zYY70uXO
+- **Adversarial Attacks & Defenses**: https://arxiv.org/pdf/2112.02797.pdf
+- **AI Security Challenge Resources Document:** TBD
 
-### Running the Code Locally
-
-After activating your conda environment, run the following command:
-
-```
-python main.py
-```
-
-### Running the Code on Google Colab
-
-[This notebook]() will walk you through setting the skeleton code up on Google Colab.
-
-**Note:** Google Colab may terminate your session after a few hours, so it may be a better idea to run your code on Kaggle (see below).
-
-### Running the Code on Kaggle
-
-[This notebook](https://www.kaggle.com/franktzheng/acm-ai-projects-kaggle-skeleton) will walk you through setting the skeleton code up on Kaggle.
-
-1. Navigate to the [code tab of the Kaggle competition](https://www.kaggle.com/c/cassava-leaf-disease-classification/code). Click on the "New Notebook" button to create a new notebook. The dataset should be automatically loaded in the `/kaggle/input` folder.
-
-2. To use the GPU, click the three dots in the top-right corner and select Accelerator > GPU.
-
-3. To access your code, run the following command (replacing the URL):
-
-   ```
-   !git clone "https://github.com/uclaacmai/projects-skeleton-code"
-   ```
-
-   This should clone your repository into the `/kaggle/working` folder.
-
-4. Change directories into your repository by running the command:
-
-   ```
-   cd <name of your repository>
-   ```
-
-5. You should now be able to import your code normally. For instance, the following code will import the starting code:
-
-   ```python
-   import constants
-   from datasets.StartingDataset import StartingDataset
-   from networks.StartingNetwork import StartingNetwork
-   from train_functions.starting_train import starting_train
-   ```
-
-6. If you want your code to run without keeping the tab open, you can click on "Save version" and commit your code. Make sure to save any outputs (e.g. log files) to the `/kaggle/working`, and you should be able to access them in the future.
-
-**IMPORTANT:** If you want to pull new changes in the Kaggle notebook, first run `!git pull`, and then RESTART your notebook (Run > Restart & clear all outputs).
-
-## Downloading the Dataset From Kaggle
-
-### Method 1: Downloading from kaggle.com
-
-1. Go to [kaggle.com](kaggle.com) and create an account.
-
-2. Join either the [Cassava leaf](https://www.kaggle.com/c/cassava-leaf-disease-classification) or [Humpback whale](https://www.kaggle.com/c/humpback-whale-identification) competition.
-
-3. In the data tab, you should be able to download the data as a zip file.
-
-### Method 2: Downloading from the Kaggle API
-
-1. Install the Kaggle API:
-
-   ```
-   pip install kaggle
-   ```
-
-   If you're on Mac or Linux, you may have to run:
-
-   ```
-   pip install --user kaggle
-   ```
-
-2. Copy the `kaggle.json` file to the location `~/.kaggle/kaggle.json` (or `C:\Users\<Windows-username>\.kaggle\kaggle.json` if you are on Windows).
-
-3. Download the zipped dataset.
-
-   ```
-   # Use humpback-whale-identification for 🐋 dataset
-   kaggle competitions download -c cassava-leaf-disease-classification
-   ```
+## Authors
+For any questions or concerns about the above challenge, please contact any representative in ACM Cyber or ACM AI.
