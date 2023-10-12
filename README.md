@@ -20,4 +20,4 @@ If you are completely new to adversarial AI, we recommend watching the following
 For any questions or concerns about the above challenge, please contact any representative in ACM Cyber or ACM AI.
 
 ## Colab links
-- [Starter notebook (fgsm)](https://colab.research.google.com/drive/1NcEPDoyoQ8cOxuG2ppFLKCzbvfEnYtXL)
+- [Starter notebook (fgsm)](https://colab.research.google.com/drive/1lkp0-VH2M01CgbZ610yVACvvWGAt1Lpn)
